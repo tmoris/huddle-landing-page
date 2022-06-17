@@ -1,1 +1,24 @@
-/*# sourceMappingURL=style.css.map */
+:root {
+  --font-sans: "Open Sans", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #000;
+  font-family: sans-serif monospace;
+  font-weight: 400;
+  line-height: 1.65;
+}/*# sourceMappingURL=style.css.map */
