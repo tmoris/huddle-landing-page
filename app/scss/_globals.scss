@@ -18,3 +18,21 @@ body {
   font-weight: 400;
   line-height: 1.65;
 }
+
+//  flexbox
+
+.flex {
+  display: flex;
+
+  &-jc__sb {
+    justify-content: space-between;
+  }
+
+  &-jc__ct {
+    justify-content: center;
+  }
+
+  &-ai__ct {
+    align-items: center;
+  }
+}

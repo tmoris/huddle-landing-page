@@ -21,4 +21,17 @@ body {
   font-family: var(--font-sans);
   font-weight: 400;
   line-height: 1.65;
+}
+
+.flex {
+  display: flex;
+}
+.flex-jc__sb {
+  justify-content: space-between;
+}
+.flex-jc__ct {
+  justify-content: center;
+}
+.flex-ai__ct {
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
