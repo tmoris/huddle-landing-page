@@ -39,4 +39,11 @@ body {
 .header {
   margin-inline: 2em;
   margin-block: 2em;
+}
+.header__logo--img {
+  display: inline-block;
+  max-inline-size: 100%;
+  block-size: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */

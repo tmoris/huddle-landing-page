@@ -1,9 +1,16 @@
 .header {
   margin-inline: 2em;
   margin-block: 2em;
-  
+
   &__logo {
 
+    &--img {
+      display: inline-block;
+      max-inline-size: 100%;
+      block-size: auto;
+      object-fit: cover;
+
+    }
   }
 
   &__cta {
