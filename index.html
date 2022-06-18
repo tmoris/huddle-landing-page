@@ -8,7 +8,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alata&family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Karla:wght@400;700&family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-
+ <!-- fontawesome link -->
+ <script src="https://kit.fontawesome.com/80210fbce6.js" crossorigin="anonymous"></script>
   <!-- favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
@@ -24,69 +25,100 @@
   </style>
 </head>
 <body>
-<header class="header flex flex-jc__sb">
-  <a href="#" aria-label="huddle logo" class="header__logo">
-    <img src="./images/logo.svg" alt="huddle" aria-controls="visible" class="header__logo--img">
-  </a>
-<a href="#" class="header__cta"> Try It Free</a>
-</header>
- 
-<main class="main">
-  <section class="hero">
-<h1>  Build The Community Your Fans Will Love</h1>
-<p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion.</p>
-  <a href="#" class="cta btn">Get Started For Free</a>
-  <img src="./images/bg-hero-desktop.svg" alt="laptop and mobile set ">
-  </section>
-</main>
-
-
+<div class="container">
+  <header class="header flex flex-jc__sb">
+    <a href="#" aria-label="huddle logo" class="header__logo">
+      <img src="./images/logo.svg" alt="huddle" aria-hidden="true" class="header__logo--img">
+    </a>
+  <a href="#" class="header__cta"> Try It Free</a>
+  </header>
    
-
+  <main class="main">
+    <section class="hero">
+  <h1>  Build The Community Your Fans Will Love</h1>
+  <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+    Create connections with your users as you engage in genuine discussion.</p>
+    <a href="#" class="cta btn">Get Started For Free</a>
+    <!-- <img src="./images/" alt="laptop and mobile set "> -->
+    <img src="./images/illustration-mockups.svg" alt="">
+    </section>
   
-
-  Grow Together
-
-  Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
-
-  Flowing Conversations
-
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads 
-  have just-in-time loading for a more natural flow.
-
-  Your Users
-
-  It takes no time at all to integrate Huddle with your app's authentication solution. 
-  This means, once signed in to your app, your users can start chatting immediately.
-
-  Ready To Build Your Community?
-
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-  incididunt ut labore et dolore magna aliqua
-
-  +1-543-123-4567
-  example@huddle.com
-
-  About Us
-  What We Do
-  FAQ
-
-  Career
-  Blog
-  Contact Us
-
-  &copy; Copyright 2018 Huddle. All rights reserved.
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+    <section>
+      <h2>Grow Together</h2>
+      <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
+        Think of the insightful conversations you miss out on with a feedback form. </p>
+        <img src="./images/illustration-grow-together.svg" alt="">
+    </section>
+  
+    <section>
+      <h2>Flowing Conversations</h2>
+      <p> You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+        have just-in-time loading for a more natural flow.</p>
+        <img src="./images/illustration-flowing-conversation.svg" alt="">
+       
+    </section>
+  
+    <section>
+      <h2>  Your Users</h2>
+      <p>It takes no time at all to integrate Huddle with your app's authentication solution. 
+        This means, once signed in to your app, your users can start chatting immediately.</p>
+        <img src="./images/illustration-your-users.svg" alt="">
+    </section>
+  
+    <section>
+      <div>
+        <h2> Ready To Build Your Community?</h2>
+      <a href="#">Get Started For Free</a>
+      </div>
+      
+    </section>
+  </main>
+  
+  <footer class="footer">
+    <a href="#"><img src="./images/logo.svg" alt="huddle logo"></a>
+  
+  <address>
+    <ul class="list">
+      <li class="list__item"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+        incididunt ut labore et dolore magna aliqua</p></li>
+      <li class="list__item"> +1-543-123-4567
+        </li>
+      <li class="list__item">example@huddle.com</li>
+    </ul>
+  </address>
+  
+  <ul class="list">
+    <li class="list__item"><a href="#" class="list__link">About Us</a></li>
+    <li class="list__item"> <a href="#" class="list__link">What We Do</a>
+      </li>
+    <li class="list__item"><a href="#" class="list__link">FAQ</a></li>
+  </ul>
+    
+  <ul class="list">
+    <li class="list__item"><a href="#" class="list__link">  Career</a></li>
+    <li class="list__item"> <a href="#" class="list__link">  Blog</a>
+      </li>
+    <li class="list__item"><a href="#" class="list__link">Contact Us</a></li>
+  </ul>
+  
+  <div>
+    <ul class="list">
+      <li class="list__item"><a href="#" class="list__link" aria-label="facebook"></a><i class="fa-brands fa-facebook" aria-hidden="true"></i></li>
+      <li class="list__item"> <a href="#" class="list__link" aria-label="twitter"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
+        </li>
+      <li class="list__item"><a href="#" class="list__link" aria-label="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+    </ul>
+    <p>&copy; Copyright 2018 Huddle. All rights reserved.
     </p>
-  </footer>
+  </div>
+  <p class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Tmoris</a>.
+  </p>
+  </footer>  
+  
+</div>
+
   <script src="./app/js/main.js"></script>
 </body>
 </html>

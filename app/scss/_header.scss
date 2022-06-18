@@ -6,6 +6,7 @@
 
   &__logo {
 max-inline-size: 25vw;
+min-inline-size: 6.25rem;
 
 
     &--img {
@@ -20,13 +21,12 @@ max-inline-size: 25vw;
     text-decoration: none;
     background-color: #fff;
     color: inherit;
-    padding: 0.25em 0.75em;
+    padding: 0.125em 0.5em;
     cursor: pointer;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
     border-radius: 100vw;
     display: flex;
     align-items: center;
-    font-size: 1.25rem;
-    font-weight: bold;
+    font-weight: 700;
   }
 }
