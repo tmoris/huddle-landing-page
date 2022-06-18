@@ -142,7 +142,12 @@ img {
   font-weight: 700;
 }
 .header .hero__img {
-  padding-block: 2em;
+  -webkit-padding-before: 2em;
+          padding-block-start: 2em;
+}
+.header p {
+  -webkit-margin-after: 2em;
+          margin-block-end: 2em;
 }
 .header .cta {
   background-color: var(--pink);
@@ -150,11 +155,19 @@ img {
   text-decoration: none;
   cursor: pointer;
   padding: 0.5em 1em;
-  -webkit-margin-before: 1em;
-          margin-block-start: 1em;
   border-radius: 100vw;
 }
 
 .main {
   background-color: var(--white);
+  padding: 2em;
+}
+
+.feature {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+  flex-direction: column-reverse;
+  gap: 2em;
+  -webkit-margin-after: 2em;
+          margin-block-end: 2em;
+  border-radius: 0.5em;
 }/*# sourceMappingURL=style.css.map */
