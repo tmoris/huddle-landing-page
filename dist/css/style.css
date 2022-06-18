@@ -34,4 +34,9 @@ body {
 }
 .flex-ai__ct {
   align-items: center;
+}
+
+.header {
+  margin-inline: 2em;
+  margin-block: 2em;
 }/*# sourceMappingURL=style.css.map */
