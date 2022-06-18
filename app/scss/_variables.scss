@@ -1,4 +1,19 @@
 :root {
---font-sans: 'Open Sans', sans-serif;
---font-poppins: 'Poppins', sans-serif;
+
+  // colors 
+  
+
+// ### Primary
+
+$pink: hsl(322, 100%, 66%);
+
+// ### Neutral
+$palecyan: hsl(193, 100%, 96%);
+$darkcyan: hsl(192, 100%, 9%);
+$grayishblue: hsl(208, 11%, 55%);
+
+  // fonts
+
+$font-sans: 'Open Sans', sans-serif;
+$font-poppins: 'Poppins', sans-serif;
 }
