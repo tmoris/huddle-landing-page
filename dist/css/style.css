@@ -26,7 +26,7 @@ body {
   color: var(--darkcyan);
   font-family: var(--font-sans);
   font-weight: 400;
-  font-size: clamp(1rem, 0.075rem + 1.5vw, 1.33rem);
+  font-size: clamp(1.125rem, 0.0625rem + 1.5vw, 1.33rem);
   line-height: 1.65;
 }
 
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5 {
 h1 {
   -webkit-margin-before: 0;
           margin-block-start: 0;
-  font-size: 1.802rem;
+  font-size: 2.802rem;
 }
 
 h2 {
@@ -74,8 +74,6 @@ small, .small-text {
 
 .flex {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1em;
 }
 .flex-jc__sb {
   justify-content: space-between;
@@ -103,6 +101,12 @@ img {
 .header {
   margin-inline: 2em;
   margin-block: 2em;
+  background-image: url("../images/bg-hero-mobile.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-wrap: wrap;
+  gap: 1em;
 }
 .header__logo {
   max-inline-size: 25vw;
@@ -126,4 +130,31 @@ img {
   display: flex;
   align-items: center;
   font-weight: 700;
+}
+.header .hero {
+  padding-block: 2em;
+  flex-direction: column;
+}
+.header .hero__text {
+  text-align: center;
+  margin-inline: auto;
+  margin-block: 2em;
+  font-weight: 700;
+}
+.header .hero__img {
+  padding-block: 2em;
+}
+.header .cta {
+  background-color: var(--pink);
+  color: var(--white);
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0.5em 1em;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  border-radius: 100vw;
+}
+
+.main {
+  background-color: var(--white);
 }/*# sourceMappingURL=style.css.map */

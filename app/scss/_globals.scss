@@ -17,7 +17,7 @@ body {
   color: var(--darkcyan);
   font-family: var(--font-sans);
   font-weight: 400;
-  font-size: clamp(1rem, 0.075rem + 1.5vw, 1.33rem);
+  font-size: clamp(1.125rem, 0.0625rem + 1.5vw, 1.33rem);
   line-height: 1.65;
 }
 
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   margin-block-start: 0;
-  font-size: 1.802rem;
+  font-size: 2.802rem;
 }
 
 h2 {
@@ -65,8 +65,7 @@ font-size: 0.85rem;
 
 .flex {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1em;
+  
 
   &-jc__sb {
     justify-content: space-between;

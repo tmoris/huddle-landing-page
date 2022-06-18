@@ -3,6 +3,12 @@
 .header {
   margin-inline: 2em;
   margin-block: 2em;
+  background-image: url("../images/bg-hero-mobile.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-wrap: wrap;
+  gap: 1em;
 
   &__logo {
 max-inline-size: 25vw;
@@ -28,5 +34,32 @@ min-inline-size: 6.25rem;
     display: flex;
     align-items: center;
     font-weight: 700;
+  }
+  
+  & .hero {
+    padding-block: 2em;
+   flex-direction: column;
+
+   
+    &__text {
+text-align: center;
+margin-inline: auto;
+margin-block: 2em;
+font-weight: 700;
+    }
+
+    &__img {
+      padding-block: 2em;
+    }
+  }
+
+  & .cta {
+    background-color: var(--pink);
+    color: var(--white);
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    margin-block-start: 1em;
+    border-radius: 100vw;
   }
 }
