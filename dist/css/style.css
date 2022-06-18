@@ -1,4 +1,8 @@
 :root {
+  --pink: hsl(322, 100%, 66%);
+  --palecyan: hsl(193, 100%, 96%);
+  --darkcyan: hsl(192, 100%, 9%);
+  --grayishblue: hsl(208, 11%, 55%);
   --font-sans: "Open Sans", sans-serif;
   --font-poppins: "Poppins", sans-serif;
 }
@@ -16,8 +20,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #fff;
-  color: #000;
+  background-color: var(--palecyan);
+  color: var(--darkcyan);
   font-family: var(--font-sans);
   font-weight: 400;
   line-height: 1.65;
