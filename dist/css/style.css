@@ -40,10 +40,26 @@ body {
   margin-inline: 2em;
   margin-block: 2em;
 }
+.header__logo {
+  max-inline-size: 25vw;
+}
 .header__logo--img {
   display: inline-block;
   max-inline-size: 100%;
   block-size: auto;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.header__cta {
+  text-decoration: none;
+  background-color: #fff;
+  color: inherit;
+  padding: 0.25em 0.75em;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 100vw;
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
