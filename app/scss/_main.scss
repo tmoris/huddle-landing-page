@@ -9,4 +9,30 @@
   gap: 2em;
   margin-block-end: 2em;
   border-radius: 0.5em;
+
+& >* {
+  padding: 2em;
+}
+  &__text {
+    text-align: center;
+    
+  }
+
+  &__img {
+    text-align: center;
+  padding-block-end: 0;
+  }
+
+}
+.feature-wrapper {
+  position: relative;
+}
+.cta-section {
+  inline-size: 90%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+  margin-inline: auto;
+  border-radius: 0.5em;
+  position: absolute;
+  top: 100%;
+  z-index: 1000;
 }
