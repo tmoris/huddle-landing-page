@@ -177,16 +177,6 @@ img {
 .feature > * {
   padding: 2em;
 }
-.feature:last-child {
-  display: flex;
-  align-items: center;
-  position: relative;
-  border: 1px solid red;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  inset-block-start: 10em;
-}
 .feature__text {
   text-align: center;
 }
@@ -197,10 +187,18 @@ img {
 }
 
 .cta-section {
-  display: inline-block;
   inline-size: 90%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
   border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  inset-block-start: 6em;
+  background-color: var(--white);
+  color: inherit;
+  margin: auto;
+  padding: 2em;
 }
 .cta-section h2 {
   -webkit-margin-after: 1em;
