@@ -114,7 +114,7 @@ a, a:hover, a:active {
 .header {
   margin-inline: 2em;
   margin-block: 2em;
-  background-image: url("../app/images/bg-hero-mobile.svg");
+  background-image: url("./bg-hero-mobile.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
