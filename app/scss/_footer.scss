@@ -3,7 +3,25 @@ flex-direction: column;
 background-color: var(--darkcyan);
 color: var(--palecyan);
 text-align: start;
-padding-block-start: 10em;
+padding-block-start: 6em;
+padding-inline: 2em;
+
+& .address {
+  margin-block-end: 2em;
+
+ 
+ 
+}
+
+}
+
+.list {
+list-style: none;
+
+&__item {
+padding-inline: 1em;
+list-style-image: url(../app/images/icon-location.svg);
+}
 }
 
 .attribution {

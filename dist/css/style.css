@@ -95,6 +95,16 @@ img {
      object-fit: cover;
 }
 
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a, a:hover, a:active {
+  text-decoration: none;
+}
+
 .container {
   inline-size: 100%;
   max-inline-size: 90%;
@@ -204,6 +214,7 @@ img {
   -webkit-margin-after: 1em;
           margin-block-end: 1em;
   text-align: center;
+  font-weight: 700;
 }
 .cta-section .cta {
   background-color: var(--pink);
@@ -212,6 +223,7 @@ img {
   cursor: pointer;
   padding: 0.5em 1em;
   border-radius: 100vw;
+  font-weight: 600;
 }
 
 .footer {
@@ -219,8 +231,21 @@ img {
   background-color: var(--darkcyan);
   color: var(--palecyan);
   text-align: start;
-  -webkit-padding-before: 10em;
-          padding-block-start: 10em;
+  -webkit-padding-before: 6em;
+          padding-block-start: 6em;
+  padding-inline: 2em;
+}
+.footer .address {
+  -webkit-margin-after: 2em;
+          margin-block-end: 2em;
+}
+
+.list {
+  list-style: none;
+}
+.list__item {
+  padding-inline: 1em;
+  list-style-image: url(../app/images/icon-location.svg);
 }
 
 .attribution {

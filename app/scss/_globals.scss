@@ -87,6 +87,16 @@ img {
   object-fit: cover;
 }
 
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a, a:hover, a:active {
+text-decoration: none;
+}
+
 .container {
   inline-size: 100%;
   max-inline-size: 90%;
