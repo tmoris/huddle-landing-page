@@ -13,6 +13,15 @@
 & >* {
   padding: 2em;
 }
+
+&:last-child {
+  display: flex;
+  align-items: center;
+  position: relative;
+  border: 1px solid red;
+  height: fit-content;
+  inset-block-start: 10em;
+}
   &__text {
     text-align: center;
     
@@ -24,15 +33,28 @@
   }
 
 }
-.feature-wrapper {
-  position: relative;
-}
+// .feature-wrapper {
+//   position: relative;
+  
+// }
 .cta-section {
+  display: inline-block;
   inline-size: 90%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
-  margin-inline: auto;
   border-radius: 0.5em;
-  position: absolute;
-  top: 100%;
-  z-index: 1000;
+
+
+ & h2 {
+margin-block-end: 1em;
+text-align: center;
+ }
+
+  & .cta {
+    background-color: var(--pink);
+    color: var(--white);
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    border-radius: 100vw;
+  }
 }

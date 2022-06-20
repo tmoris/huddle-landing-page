@@ -1,0 +1,15 @@
+.footer {
+flex-direction: column;
+background-color: var(--darkcyan);
+color: var(--palecyan);
+text-align: start;
+padding-block-start: 10em;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
