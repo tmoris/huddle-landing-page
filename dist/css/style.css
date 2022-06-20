@@ -240,14 +240,6 @@ a, a:hover, a:active {
           margin-block-end: 2em;
 }
 
-.list {
-  list-style: none;
-}
-.list__item {
-  padding-inline: 1em;
-  list-style-image: url(../app/images/icon-location.svg);
-}
-
 .attribution {
   font-size: 11px;
   text-align: center;
