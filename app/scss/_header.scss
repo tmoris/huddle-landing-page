@@ -1,4 +1,4 @@
-@use "../scss/variables";
+@use "variables" as *;
 
 .header {
   margin-inline: 2em;
@@ -56,7 +56,7 @@ font-weight: 700;
     margin-block-end: 2em;
   }
   & .cta {
-    background-color: var(--pink);
+    background-color: $pink;
     color: var(--white);
     text-decoration: none;
     cursor: pointer;
