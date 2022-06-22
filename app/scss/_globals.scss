@@ -3,7 +3,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: 100%; // 16px
+  font-size: 112.5%; // 18px
   scroll-behavior: smooth;
 }
 
@@ -18,7 +18,7 @@ body {
   color: var(--darkcyan);
   font-family: var(--font-sans);
   font-weight: 400;
-  font-size: clamp(1.125rem, 0.0625rem + 1.5vw, 1.33rem);
+  font-size: clamp(1rem, 0.75rem + 1.5vw, 1.33rem);
   line-height: 1.65;
 }
 
