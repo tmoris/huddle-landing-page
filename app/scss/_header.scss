@@ -56,7 +56,7 @@ font-weight: 700;
     margin-block-end: 2em;
   }
   & .cta {
-    background-color: $pink;
+    background-color: var(--pink);
     color: var(--white);
     text-decoration: none;
     cursor: pointer;
