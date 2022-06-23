@@ -28,6 +28,9 @@ min-inline-size: 6.25rem;
       object-fit: cover;
     }
   }
+  .hero__text h1 {
+text-align: center;
+  }
 
   &__cta {
     text-decoration: none;
@@ -51,7 +54,7 @@ min-inline-size: 6.25rem;
 text-align: center;
 margin-inline: auto;
 margin-block: 2em;
-font-weight: 700;
+font-weight: 400;
     }
 
     &__img {

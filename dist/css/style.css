@@ -50,16 +50,16 @@ h1, h2, h3, h4, h5 {
 h1 {
   -webkit-margin-before: 0;
           margin-block-start: 0;
-  font-size: 2.802rem;
   max-inline-size: 20ch;
+  font-size: clamp(1.5rem, 0.75rem + 1.5vw, 2.802rem);
 }
 
 h2 {
-  font-size: 1.602rem;
+  font-size: clamp(1.25rem, 0.75rem + 1.5vw, 1.602rem);
 }
 
 h3 {
-  font-size: 1.424rem;
+  font-size: clamp(1.125rem, 0.75rem + 1.5vw, 1.424rem);
 }
 
 h4 {
@@ -87,7 +87,7 @@ small, .small-text {
   align-items: center;
 }
 
-img {
+img, svg {
   display: block;
   max-inline-size: 100%;
   block-size: auto;
@@ -101,7 +101,7 @@ ul, ol {
   padding: 0;
 }
 
-a, a:hover, a:active {
+a, a:hover, a:active, a:visited {
   text-decoration: none;
 }
 
@@ -138,6 +138,9 @@ a, a:hover, a:active {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.header .hero__text h1 {
+  text-align: center;
+}
 .header__cta {
   text-decoration: none;
   background-color: #fff;
@@ -158,7 +161,7 @@ a, a:hover, a:active {
   text-align: center;
   margin-inline: auto;
   margin-block: 2em;
-  font-weight: 700;
+  font-weight: 400;
 }
 .header .hero__img {
   -webkit-padding-before: 2em;
@@ -241,6 +244,33 @@ a, a:hover, a:active {
           margin-block-end: 2em;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 1em;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+.list__item {
+  -webkit-padding-after: 1em;
+          padding-block-end: 1em;
+}
+.list__item--link {
+  color: inherit;
+}
+.list__secondary {
+  flex-direction: row;
+  margin-block: 1em;
+}
+.list__secondary .list__item {
+  -webkit-padding-end: 1em;
+          padding-inline-end: 1em;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -273,6 +303,10 @@ a, a:hover, a:active {
             padding-block-start: 0;
   }
 
+  header .hero_text h1 {
+    text-align: start;
+  }
+
   .feature {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -281,8 +315,9 @@ a, a:hover, a:active {
   .feature__text {
     text-align: start;
   }
-}
-.feature-wrapper > :nth-child(2) > :last-child {
-  grid-column: 1/2;
-  grid-row: 1/2;
+
+  .feature-wrapper > :nth-child(2) > :last-child {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
 }/*# sourceMappingURL=style.css.map */

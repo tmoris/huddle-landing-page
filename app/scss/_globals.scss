@@ -38,16 +38,17 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   margin-block-start: 0;
-  font-size: 2.802rem;
   max-inline-size: 20ch;
+  font-size: clamp(1.5rem, 0.75rem + 1.5vw, 2.802rem);
+  
 }
 
 h2 {
-  font-size: 1.602rem;
+  font-size: clamp(1.25rem, 0.75rem + 1.5vw, 1.602rem);
 }
 
 h3 {
-  font-size: 1.424rem;
+  font-size: clamp(1.125rem, 0.75rem + 1.5vw, 1.424rem);
 }
 
 h4 {
@@ -81,12 +82,13 @@ font-size: 0.85rem;
   }
 }
 
-img {
+img, svg {
   display: block;
   max-inline-size: 100%;
   block-size: auto;
   object-fit: cover;
 }
+
 
 ul, ol {
   list-style: none;
@@ -94,7 +96,7 @@ ul, ol {
   padding: 0;
 }
 
-a, a:hover, a:active {
+a, a:hover, a:active, a:visited {
 text-decoration: none;
 }
 

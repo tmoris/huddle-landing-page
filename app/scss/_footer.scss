@@ -10,7 +10,32 @@
     margin-block-end: 2em;
   }
 }
+.grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 1em;
+}
+.list {
+  display: flex;
+  flex-direction: column;
 
+  &__item {
+    padding-block-end: 1em;
+
+    &--link {
+      color: inherit;
+    }
+  }
+
+  &__secondary {
+    flex-direction: row;
+    margin-block: 1em;
+}
+&__secondary .list__item {
+ padding-inline-end: 1em;
+}
+}
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -43,17 +68,22 @@
       }
     }
   }
+  header .hero_text h1 {
+    text-align: start;
+          }
 
   .feature {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 align-items: center;
+
     &__text {
       text-align: start;
     }
   }
-}
+
 .feature-wrapper > :nth-child(2) > :last-child {
   grid-column: 1/2;
   grid-row: 1/2;
+}
 }
