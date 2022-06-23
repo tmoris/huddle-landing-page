@@ -1,25 +1,22 @@
 :root {
+  // colors
+  // ### Primary
 
-  // colors 
-// ### Primary
+  --pink: hsl(322, 100%, 66%);
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 13%);
 
---pink: hsl(322, 100%, 66%);
---white: hsl(0, 0%, 100%);
---black: hsl(0, 0%, 13%) ;
+  // ### Neutral
+  --palecyan: hsl(193, 100%, 96%);
+  --darkcyan: hsl(192, 100%, 9%);
+  --grayishblue: hsl(208, 11%, 55%);
 
-// ### Neutral
---palecyan: hsl(193, 100%, 96%);
---darkcyan: hsl(192, 100%, 9%);
---grayishblue: hsl(208, 11%, 55%);
+  // fonts
 
+  --font-sans: "Open Sans", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
 
-// fonts
-
---font-sans: 'Open Sans', sans-serif;
---font-poppins: 'Poppins', sans-serif;
-
-// spacing
---gutter: 1.25em;
---block-space: 1em;
-
+  // spacing
+  --gutter: 1.25em;
+  --block-space: 1em;
 }

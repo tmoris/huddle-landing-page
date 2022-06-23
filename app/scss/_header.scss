@@ -5,9 +5,10 @@
   margin-block: 2em;
   flex-wrap: wrap;
   gap: 1em;
-position: relative;
+  position: relative;
 
-  &__bg-mobile, &__bg-desktop {
+  &__bg-mobile,
+  &__bg-desktop {
     position: absolute;
     object-position: center;
     z-index: -1;
@@ -17,9 +18,8 @@ position: relative;
   }
 
   &__logo {
-max-inline-size: 25vw;
-min-inline-size: 6.25rem;
-
+    max-inline-size: 25vw;
+    min-inline-size: 6.25rem;
 
     &--img {
       display: inline-block;
@@ -29,7 +29,7 @@ min-inline-size: 6.25rem;
     }
   }
   .hero__text h1 {
-text-align: center;
+    text-align: center;
   }
 
   &__cta {
@@ -44,17 +44,16 @@ text-align: center;
     align-items: center;
     font-weight: 700;
   }
-  
+
   & .hero {
     padding-block: 2em;
-   flex-direction: column;
+    flex-direction: column;
 
-   
     &__text {
-text-align: center;
-margin-inline: auto;
-margin-block: 2em;
-font-weight: 400;
+      text-align: center;
+      margin-inline: auto;
+      margin-block: 2em;
+      font-weight: 400;
     }
 
     &__img {
