@@ -19,6 +19,14 @@
   color: hsl(228, 45%, 44%);
 }
 
+@media (min-width: 23.4375em) {
+  .header__bg-desktop {
+    display: block;
+  }
+  .header__bg-mobile {
+    display: none;
+  }
+}
 @media (min-width: 56.25em) {
   .header {
     & .hero {
@@ -39,7 +47,7 @@
   .feature {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
+align-items: center;
     &__text {
       text-align: start;
     }
