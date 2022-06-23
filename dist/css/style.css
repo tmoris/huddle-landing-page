@@ -17,7 +17,9 @@ html {
   scroll-behavior: smooth;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -38,7 +40,11 @@ p {
           margin-block-end: 1em;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   margin: 0;
   -webkit-margin-after: 1.035em;
           margin-block-end: 1.035em;
@@ -70,7 +76,8 @@ h5 {
   font-size: 1.25rem;
 }
 
-small, .small-text {
+small,
+.small-text {
   font-size: 0.85rem;
 }
 
@@ -87,7 +94,8 @@ small, .small-text {
   align-items: center;
 }
 
-img, svg {
+img,
+svg {
   display: block;
   max-inline-size: 100%;
   block-size: auto;
@@ -95,13 +103,17 @@ img, svg {
      object-fit: cover;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-a, a:hover, a:active, a:visited {
+a,
+a:hover,
+a:active,
+a:visited {
   text-decoration: none;
 }
 
@@ -251,6 +263,10 @@ a, a:hover, a:active, a:visited {
   gap: 1em;
 }
 
+.gutter {
+  gap: 4em;
+}
+
 .list {
   display: flex;
   flex-direction: column;
@@ -303,7 +319,7 @@ a, a:hover, a:active, a:visited {
             padding-block-start: 0;
   }
 
-  header .hero_text h1 {
+  .header .hero_text h1 {
     text-align: start;
   }
 
@@ -319,5 +335,12 @@ a, a:hover, a:active, a:visited {
   .feature-wrapper > :nth-child(2) > :last-child {
     grid-column: 1/2;
     grid-row: 1/2;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 1em;
   }
 }/*# sourceMappingURL=style.css.map */

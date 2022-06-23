@@ -1,7 +1,6 @@
-
 .main {
- background-color: var(--white); 
- padding: 2em;
+  background-color: var(--white);
+  padding: 2em;
 }
 .feature {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
@@ -10,19 +9,13 @@
   margin-block-end: 2em;
   border-radius: 0.5em;
 
-& >* {
-  padding: 2em;
-}
+  & > * {
+    padding: 2em;
+  }
 
   &__text {
     text-align: center;
-    
   }
-
-  // &__img {
-  // padding-block-end: ;
-  // }
-
 }
 
 .cta-section {
@@ -36,14 +29,14 @@
   inset-block-start: 6em;
   background-color: var(--white);
   color: inherit;
-  margin:  auto;
+  margin: auto;
   padding: 2em;
 
- & h2 {
-margin-block-end: 1em;
-text-align: center;
-font-weight: 700;
- }
+  & h2 {
+    margin-block-end: 1em;
+    text-align: center;
+    font-weight: 700;
+  }
 
   & .cta {
     background-color: var(--pink);

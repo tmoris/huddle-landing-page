@@ -1,5 +1,5 @@
-@use 'variables' as *;
-@use  'mixin' as *;
+@use "variables" as *;
+@use "mixin" as *;
 
 html {
   box-sizing: border-box;
@@ -7,7 +7,9 @@ html {
   scroll-behavior: smooth;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -23,24 +25,26 @@ body {
 }
 
 p {
-  max-inline-size:50ch;
+  max-inline-size: 50ch;
   margin-block-end: 1em;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   margin: 0;
   margin-block-end: 1.035em;
   font-family: var(--font-poppins);
   font-weight: 600;
   line-height: 1.3;
-
 }
 
 h1 {
   margin-block-start: 0;
   max-inline-size: 20ch;
   font-size: clamp(1.5rem, 0.75rem + 1.5vw, 2.802rem);
-  
 }
 
 h2 {
@@ -56,18 +60,18 @@ h4 {
 }
 
 h5 {
- font-size: 1.25rem; 
+  font-size: 1.25rem;
 }
 
-small, .small-text {
-font-size: 0.85rem;
+small,
+.small-text {
+  font-size: 0.85rem;
 }
 
 //  flexbox
 
 .flex {
   display: flex;
-  
 
   &-jc__sb {
     justify-content: space-between;
@@ -82,22 +86,26 @@ font-size: 0.85rem;
   }
 }
 
-img, svg {
+img,
+svg {
   display: block;
   max-inline-size: 100%;
   block-size: auto;
   object-fit: cover;
 }
 
-
-ul, ol {
+ul,
+ol {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-a, a:hover, a:active, a:visited {
-text-decoration: none;
+a,
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
 }
 
 .container {
