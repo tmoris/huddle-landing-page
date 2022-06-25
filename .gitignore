@@ -19,3 +19,4 @@ node_modules/.bin/sass.ps1
 node_modules/.package-lock.json
 node_modules/anymatch/index.d.ts
 node_modules/anymatch/index.js
+.vscode/settings.json
