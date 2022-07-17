@@ -300,7 +300,6 @@ a:visited {
   .header__bg-desktop {
     display: block;
   }
-
   .header__bg-mobile {
     display: none;
   }
@@ -318,11 +317,9 @@ a:visited {
     -webkit-padding-before: 0;
             padding-block-start: 0;
   }
-
   .header .hero_text h1 {
     text-align: start;
   }
-
   .feature {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -331,12 +328,10 @@ a:visited {
   .feature__text {
     text-align: start;
   }
-
   .feature-wrapper > :nth-child(2) > :last-child {
     grid-column: 1/2;
     grid-row: 1/2;
   }
-
   .footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
